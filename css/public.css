@@ -1,0 +1,43 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dt,dd,form,input{
+   margin:0px;
+   padding:0px;
+   font-family:Arial,"微软雅黑";
+   font-size:12px;
+   list-style:none;/*清除列表标签的小圆点*/
+}
+a{
+  color:#333;
+  text-decoration:none;
+}
+img{
+	border: none;
+}
+/*字体图标*/
+@font-face {
+    font-family:"abc";
+    src: url('../font/iconfont.eot'); /* IE9*/
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.yifu:before{
+    content: "\e604";
+    font-family:abc;
+}
+.xin1:before{
+    content: "\e601";
+    font-family:abc;
+}
+.lanzi:before{
+    content: "\e603";
+    font-family:abc;
+}
+.feiji:before{
+    content: "\e602";
+    font-family:abc;
+}
+.shouji:before{
+    content: "\e600";
+    font-family:abc;
+}
